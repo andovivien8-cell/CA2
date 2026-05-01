@@ -1,0 +1,322 @@
+#container {
+    background-color: #fafaff;
+    border-color: #5b5eb4;
+    border-style: solid;
+    border-width: 4px;
+    height: 930px;
+    width: 655px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+body{
+    background-color: rgb(155, 162, 238);
+}
+
+/* Top header with title. Basically the whole thing is a picture */
+#header {
+    display: block;
+    background: #fafaff;
+    border: 1px solid #bfbcf0;
+    border-radius: 20px;
+    padding: 6px;
+    height: 100px;
+    margin: 7px;
+    
+    background-image: url("sky.jpg"); /* adding my image */
+    background-size: cover; /* make the image cover the whole header */
+    background-position: top; /* center the image */
+    background-repeat: no-repeat; /* prevent the image from repeating */
+    
+}
+
+
+.content {
+    display: grid;
+    grid-template-columns: 180px 1fr 200px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.box{
+    background: #fff;
+    border: 2px solid #bfbcf0;
+    border-radius: 12px;
+    padding: 10px;
+    height: 320px;
+    width: 130px;
+    margin-top: 10px;
+}
+
+.box h3{
+    margin-top: 0;
+    font-size: 13px;
+    text-align: center;
+    color: #5b5eb4;
+}
+
+.nav a {
+    display: block;
+    background: #fafaff;
+    border: 1px solid #bfbcf0;
+    border-radius: 20px;
+    padding: 6px;
+    margin: 6px 0;
+    text-decoration: none;
+    color: #5b5eb4;
+    text-align: center;
+    width: 120px;
+}
+
+.nav a hover{
+    background: #e4e6ff;
+}
+
+#top_middle {
+    display: block;
+    background: #fff;
+    margin: 6px 0;
+    text-decoration: none;
+    color: #5b5eb4;
+    text-align: center;
+    width: 280px;
+    height: 250px;
+    margin-left: 175px;
+    position: relative;
+    top: -355px;
+    border: 2px solid #bfbcf0;
+    border-radius: 12px;
+    padding: 10px;
+    
+}
+
+.image-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    width: 100%;
+    padding-bottom: 10px;
+    scroll-behavior: smooth;
+    height: 36%;
+}
+
+.image-scroll {
+    scroll-snap-type: x mandatory;
+}
+
+.image-scroll img {
+    scroll-snap-align: center;
+}
+
+.image-scroll img:hover{
+    transform: scale(1.3);
+    transition: 2s ease;
+}
+
+#top_right {
+    display: block;
+    background: #fff;
+    margin: 6px 0;
+    text-decoration: none;
+    color: #5b5eb4;
+    text-align: center;
+    width: 130px;
+    height: 250px;
+    margin-left: 490px;
+    position: relative;
+    top: -633px;
+    border: 2px solid #bfbcf0;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+#bottom_left {
+    display: block;
+    background: #fff;
+    margin: 6px 0;
+    text-decoration: none;
+    color: #5b5eb4;
+    text-align: center;
+    width: 130px;
+    height: 320px;
+    margin-left: 10px;
+    position: relative;
+    top: -555px;
+    border: 2px solid #bfbcf0;
+    border-radius: 12px;
+    padding: 10px;
+
+     background-image: url("clouds.jpg"); /* adding my image */
+    background-size: cover; /* make the image cover the whole header */
+    background-position: center; /* center the image */
+    background-repeat: no-repeat; /* prevent the image from repeating */
+    
+}
+
+#animation {
+        display: block;
+    background: #fff;
+    margin: 6px 0;
+    text-decoration: none;
+    color: #5b5eb4;
+    text-align: center;
+    width: 280px;
+    height: 60px;
+    margin-left: 175px;
+    position: relative;
+    top: -105%;
+    border: 2px solid #bfbcf0;
+    border-radius: 12px;
+    padding: 10px
+    
+}
+
+#center {
+     display: block;
+    background: #fff;
+    margin: 6px 0;
+    text-decoration: none;
+    color: #5b5eb4;
+    text-align: center;
+    width: 280px;
+    height: 175px;
+    margin-left: 175px;
+    position: relative;
+    top:-104%;
+    border: 2px solid #bfbcf0;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+#right {
+     display: block;
+    background: #fff;
+    margin: 6px 0;
+    text-decoration: none;
+    color: #5b5eb4;
+    text-align: center;
+    width: 140px;
+    height: 150px;
+    margin-left: 107%;
+    position: relative;
+    top:-156%;
+    border: 2px solid #bfbcf0;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+#animation2 {
+     display: block;
+    background: #fff;
+    margin: 6px 0;
+    text-decoration: none;
+    color: #5b5eb4;
+    text-align: center;
+    width: 140px;
+    height: 50px;
+    margin-left: 108%;
+    position: relative;
+    top:-150%;
+    border: 2px solid #bfbcf0;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+#bottom {
+       display: block;
+    background: #fff;
+    margin: 6px 0;
+    text-decoration: none;
+    color: #5b5eb4;
+    text-align: center;
+    width: 280px;
+    height: 115px;
+    margin-left: -321px;
+    border: 2px solid #bfbcf0;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 108px;
+}
+
+#bottom_right {
+     display: block;
+    background: #fff;
+    margin: 6px 0;
+    text-decoration: none;
+    color: #5b5eb4;
+    text-align: center;
+    width: 140px;
+    height: 150px;
+    margin-left: -8%;
+    margin-top: -130%;
+    border: 2px solid #bfbcf0;
+    border-radius: 12px;
+    padding: 10px;
+
+}
+
+.explore-button {
+ background-color: white;
+    border-color: rgb(169, 199, 224);
+    border-style: solid;
+    border-width: 2px;
+    color: rgb(169, 199, 224);
+    cursor: pointer;
+    margin-right: center;
+    transition: background-color 0.15s,
+    color 0.15s;
+    bottom: center;
+    left: 220%;
+}
+
+.explore-button:hover {
+    background-color: rgb(169, 199, 224);
+    color: white;
+}
+
+.explore-button:active {
+    opacity: 0.7;
+}
+
+.image-scroll img{
+     width:80px;
+    height:80px;
+    transition:0.3s ease;
+    cursor:pointer;
+}
+
+.image-scroll img:hover{
+     transform:scale(1.1);
+}
+
+/* making everything tidy */
+
+@media only screen and (max-width: 1100px) {
+    #wrapper{
+        width:100%;
+    }
+    
+    main{
+        float:left;
+        width:100%;
+    }
+    
+    aside{
+        float:right;
+        width: 33%;
+        margin-top:50px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    section{
+        width:100%;
+        float:none;
+    }
+}
+    
+    aside{
+        float:none;
+        width: 100%;
+    }
